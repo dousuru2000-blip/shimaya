@@ -39,28 +39,16 @@
       font-size: 0.95rem;
     }
 
+    /* 🔥 画像なしヒーロー */
     .hero {
-      background: url("hero.jpg") center/cover no-repeat;
-      height: 70vh;
+      background: linear-gradient(135deg, #7a5c3d, #c4a484);
+      height: 60vh;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
       flex-direction: column;
       color: #fff;
-      position: relative;
-    }
-
-    .hero::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(0,0,0,0.4);
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 1;
     }
 
     .hero h2 {
@@ -160,11 +148,9 @@
 </header>
 
 <section class="hero">
-  <div class="hero-content">
-    <h2>横須賀・三浦・横浜限定<br>古着の出張買取なら島屋本舗</h2>
-    <p>最短即日対応・その場で現金買取</p>
-    <a href="https://lin.ee/loAYupH" class="cta-button">LINEで写真送るだけ査定</a>
-  </div>
+  <h2>横須賀・三浦・横浜限定<br>古着の出張買取なら島屋本舗</h2>
+  <p>最短即日対応・その場で現金買取</p>
+  <a href="https://lin.ee/loAYupH" class="cta-button">LINEで写真送るだけ査定</a>
 </section>
 
 <section>
@@ -213,11 +199,21 @@
   </div>
 </section>
 
+<!-- 🔥 ポスティング募集 -->
+<section>
+  <h2>ポスティングスタッフ募集中</h2>
+  <div class="box">
+    <p>空いた時間でOK！チラシ配布スタッフを募集しています。</p>
+    <p>横須賀・三浦・横浜エリア</p>
+    <p>ご興味ある方はLINEからご連絡ください。</p>
+    <a href="https://lin.ee/loAYupH" class="cta-button">LINEで応募する</a>
+  </div>
+</section>
+
 <footer>
   <p>© 2025 島屋本舗. All Rights Reserved.</p>
 </footer>
 
-<!-- 固定LINEボタン -->
 <a href="https://lin.ee/loAYupH" class="line-fixed">
   LINE
 </a>
